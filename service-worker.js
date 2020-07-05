@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/music-intervals-in-songs/precache-manifest.ee29a4920fe9af05b4fba49b98a5fa9c.js"
+  "/music-intervals-in-songs/precache-manifest.30b15eedc67d7bb781c4203021aafff8.js"
 );
 
 self.addEventListener('message', (event) => {
