@@ -1,0 +1,126 @@
+.player-title {
+  text-align: center;
+  color: #adbbd3;
+}
+
+.player-thumbnail-placeholder {
+  width: 100px;
+  height: 25px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.play-button,
+.pause-button {
+  width: 40px;
+  position: absolute;
+  transform: translate(80px, -15px);
+  cursor: pointer;
+  -webkit-filter: brightness(80%);
+}
+
+.player-thumbnail-container {
+  max-width: 100px;
+  &:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+}
+
+.player-container {
+  width: 200px;
+padding: 50px;
+}
+
+.player-thumbnail {
+  position: relative;
+  transform: translate(47.5px, 60px);
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #cedee6;
+  background: linear-gradient(145deg, #c1e8ff, #a2c3d6);
+  box-shadow: 5px 5px 10px #79868e, -5px -5px 10px #ffffff;
+  -webkit-filter: brightness(100%);
+  opacity: 1;
+  transition: opacity 0.5s linear;
+  &.animation {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+}
+
+.player-menu {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transform: translate(51.5px, -45px);
+  background: linear-gradient(145deg, #f5ffff, #ced9e6);
+  box-shadow: 3px 3px 5px #bec8d4, -3px -3px 5px #ffffff;
+  -webkit-filter: brightness(100%);
+  font-size: 12px;
+  color: #adbbd3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  z-index: -10;
+  transition: z-index 0.5s 0.5s;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  &.animation {
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 0.5s linear;
+  }
+
+  .player-menu-option {
+    padding: 5px;
+    cursor: pointer;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
+      color: rgb(151, 153, 154);
+      transition: color 0.5s linear;
+    }
+  }
+}
+
+.player-control-container {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  .control-button-outer {
+    cursor: pointer;
+    padding: 5px 7px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #f5ffff, #ced9e6);
+    box-shadow: 3px 3px 5px #bec8d4, -3px -3px 5px #ffffff;
+  }
+
+  .control-button {
+    width: 20px;
+    height: 20px;
+    transform: rotate(0deg);
+    transition: all 0.5s ease;
+
+    &.animation {
+      transform: rotate(90deg);
+      transition: all 0.5s ease;
+    }
+  }
+}

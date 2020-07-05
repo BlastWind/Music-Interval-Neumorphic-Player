@@ -8,3 +8,7 @@ By the way 1, after training your ears for a while, internalize these intervals 
 By the way 2, Earpeggio is a good app on iPhone to train your interval idenfication skills, it also have melody dictation, scale identification, etc.
 
 Good luck!
+
+
+
+Build with React.js + Howler.js, design entirely credited to: https://dribbble.com/shots/9517002--Light-Mode-Simple-Music-Player
