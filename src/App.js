@@ -24,7 +24,9 @@ function App() {
       src: [song.file],
       volume: 0.5,
       onend: function() {
-        elRefs[0].current.pausePlayer();
+        for (var i = 0; i < elRefs.length; i++) {
+          elRefs[i].current.pausePlayer();
+        }
       }
     });
 
@@ -52,9 +54,17 @@ function App() {
 
   return (
     <div className="App">
+<div className="metaContainer">
+<div>
       <div className="AppTitle">These Intervals... Quite Catchy</div>
-      <div className="AppNote">The first non unison interval in each clip matches the corresponding interval name</div>
-      <div className="intervalPlayerContainer">
+      <div className="AppNote">
+        The first non unison interval in each clip matches the corresponding
+        interval name
+      </div>
+</div>
+
+</div>
+  <div className="intervalPlayerContainer">
         {intervalPlayerData.map((eachInterval, i) => {
           return (
             <IntervalPlayer

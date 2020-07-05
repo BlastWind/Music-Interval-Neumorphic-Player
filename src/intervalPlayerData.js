@@ -158,8 +158,7 @@ intervalPlayerJSON = [
       {
         title: "Willy-Ketzer-Quartet ft. Roberta Gambarini",
         file: WillyKetzerQuartet,
-        url:
-          "https://d2s36jztkuk7aw.cloudfront.net/sites/default/files/tile/image/BeatlesForSale_1.jpg",
+        url: "https://www.youtube.com/watch?v=gbZeEGRj-JY#t=58s",
         thumbnail:
           "https://inandout-records.com/wp-content/uploads/2018/04/7046_front.jpg"
       },
