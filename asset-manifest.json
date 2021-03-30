@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/music-intervals-in-songs/static/css/main.c9e4dc35.chunk.css",
-    "main.js": "/music-intervals-in-songs/static/js/main.e2a69781.chunk.js",
-    "main.js.map": "/music-intervals-in-songs/static/js/main.e2a69781.chunk.js.map",
+    "main.css": "/music-intervals-in-songs/static/css/main.c56c517b.chunk.css",
+    "main.js": "/music-intervals-in-songs/static/js/main.03c87ab7.chunk.js",
+    "main.js.map": "/music-intervals-in-songs/static/js/main.03c87ab7.chunk.js.map",
     "runtime-main.js": "/music-intervals-in-songs/static/js/runtime-main.9a8e17e2.js",
     "runtime-main.js.map": "/music-intervals-in-songs/static/js/runtime-main.9a8e17e2.js.map",
     "static/js/2.f701ec95.chunk.js": "/music-intervals-in-songs/static/js/2.f701ec95.chunk.js",
     "static/js/2.f701ec95.chunk.js.map": "/music-intervals-in-songs/static/js/2.f701ec95.chunk.js.map",
     "index.html": "/music-intervals-in-songs/index.html",
-    "precache-manifest.d931c64dd688c1200be89ae3b99cc87c.js": "/music-intervals-in-songs/precache-manifest.d931c64dd688c1200be89ae3b99cc87c.js",
+    "precache-manifest.a9ea4f6e2f2122f1984d3fba4e890b40.js": "/music-intervals-in-songs/precache-manifest.a9ea4f6e2f2122f1984d3fba4e890b40.js",
     "service-worker.js": "/music-intervals-in-songs/service-worker.js",
-    "static/css/main.c9e4dc35.chunk.css.map": "/music-intervals-in-songs/static/css/main.c9e4dc35.chunk.css.map",
+    "static/css/main.c56c517b.chunk.css.map": "/music-intervals-in-songs/static/css/main.c56c517b.chunk.css.map",
     "static/js/2.f701ec95.chunk.js.LICENSE.txt": "/music-intervals-in-songs/static/js/2.f701ec95.chunk.js.LICENSE.txt",
     "static/media/acapulco-1922.mp3": "/music-intervals-in-songs/static/media/acapulco-1922.3c4d9fd8.mp3",
     "static/media/amazing-grace.mp3": "/music-intervals-in-songs/static/media/amazing-grace.3825fb43.mp3",
@@ -83,7 +83,7 @@
   "entrypoints": [
     "static/js/runtime-main.9a8e17e2.js",
     "static/js/2.f701ec95.chunk.js",
-    "static/css/main.c9e4dc35.chunk.css",
-    "static/js/main.e2a69781.chunk.js"
+    "static/css/main.c56c517b.chunk.css",
+    "static/js/main.03c87ab7.chunk.js"
   ]
 }

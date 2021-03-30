@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ecbba392d76563d0c4ab64fb3e42595",
+    "revision": "dbe28ae977fa0cad09479f88ccb569b4",
     "url": "/music-intervals-in-songs/index.html"
   },
   {
-    "revision": "90821272c296af4dc075",
-    "url": "/music-intervals-in-songs/static/css/main.c9e4dc35.chunk.css"
+    "revision": "cffd7c3b10d64c7dbc7a",
+    "url": "/music-intervals-in-songs/static/css/main.c56c517b.chunk.css"
   },
   {
     "revision": "06e971fce601e07d9e53",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/music-intervals-in-songs/static/js/2.f701ec95.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90821272c296af4dc075",
-    "url": "/music-intervals-in-songs/static/js/main.e2a69781.chunk.js"
+    "revision": "cffd7c3b10d64c7dbc7a",
+    "url": "/music-intervals-in-songs/static/js/main.03c87ab7.chunk.js"
   },
   {
     "revision": "b43c5413ace263a02cf3",
