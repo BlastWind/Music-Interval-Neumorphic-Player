@@ -10,7 +10,7 @@ function App() {
   const intervalPlayerData = intervalPlayerJSON;
   const [elRefs, setElRefs] = React.useState([]);
   React.useEffect(() => {
-    setElRefs(elRefs =>
+    setElRefs((elRefs) =>
       Array(intervalPlayerData.length)
         .fill()
         .map((_, i) => elRefs[i] || React.createRef())
@@ -19,15 +19,15 @@ function App() {
 
   const [sound, setSound] = React.useState([]);
 
-  const playSound = song => {
+  const playSound = (song) => {
     var newSound = new Howl({
       src: [song.file],
       volume: 0.5,
-      onend: function() {
+      onend: function () {
         for (var i = 0; i < elRefs.length; i++) {
           elRefs[i].current.pausePlayer();
         }
-      }
+      },
     });
 
     setSound(newSound);
@@ -44,7 +44,7 @@ function App() {
     }
   };
 
-  const pauseAllOtherPlayers = a => {
+  const pauseAllOtherPlayers = (a) => {
     intervalPlayerData.map((x, i) => {
       if (a !== i) {
         elRefs[i].current.pausePlayer();
@@ -54,17 +54,16 @@ function App() {
 
   return (
     <div className="App">
-<div className="metaContainer">
-<div>
-      <div className="AppTitle">These Intervals... Quite Catchy</div>
-      <div className="AppNote">
-        The first non unison interval in each clip matches the corresponding
-        interval name
+      <div className="metaContainer">
+        <div>
+          <div className="AppTitle">These Intervals... Quite Catchy</div>
+          <div className="AppNote">
+            The first non unison interval in each clip matches the corresponding
+            interval name
+          </div>
+        </div>
       </div>
-</div>
-
-</div>
-  <div className="intervalPlayerContainer">
+      <div className="intervalPlayerContainer">
         {intervalPlayerData.map((eachInterval, i) => {
           return (
             <IntervalPlayer
@@ -72,7 +71,7 @@ function App() {
               pauseAllOtherPlayers={pauseAllOtherPlayers}
               index={i}
               data={eachInterval}
-              playSound={songIndex => {
+              playSound={(songIndex) => {
                 playSound(eachInterval.songs[songIndex]);
               }}
               pauseSound={pauseSound}
