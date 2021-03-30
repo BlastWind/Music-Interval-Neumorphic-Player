@@ -15,7 +15,7 @@ class IntervalPlayer extends Component {
       buttonAnimation: "",
       thumbnailSrc: this.props.data.songs[0].thumbnail,
       currentSongIndex: 0,
-      url: this.props.data.songs[0].url
+      url: this.props.data.songs[0].url,
     };
   }
 
@@ -47,7 +47,7 @@ class IntervalPlayer extends Component {
     this.setState({
       buttonAnimation: newState,
       thumbnailAnimation: newState,
-      menuAnimation: newState
+      menuAnimation: newState,
     });
   };
 
@@ -55,19 +55,19 @@ class IntervalPlayer extends Component {
     this.setState({ isPlaying: false });
   };
 
-  setSong = songIndex => {
+  setSong = (songIndex) => {
     var { thumbnail, url, file } = this.props.data.songs[songIndex];
     this.setState({
       thumbnailSrc: thumbnail,
       currentSongIndex: songIndex,
-      url: url
+      url: url,
     });
     var newState = "";
     this.setState({
       buttonAnimation: newState,
       thumbnailAnimation: newState,
       menuAnimation: newState,
-      isPlaying: false
+      isPlaying: false,
     });
     this.props.pauseSound();
   };
@@ -110,6 +110,7 @@ class IntervalPlayer extends Component {
                   this.setSong(i);
                 }}
                 className="player-menu-option"
+                key={i}
               >
                 {eachSong.title}
               </div>

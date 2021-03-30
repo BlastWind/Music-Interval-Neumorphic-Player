@@ -75,6 +75,7 @@ function App() {
                 playSound(eachInterval.songs[songIndex]);
               }}
               pauseSound={pauseSound}
+              key={i}
             />
           );
         })}
