@@ -1,7 +1,7 @@
 # Songs to help ingrain music intervals
 Identifying intervals is the first step to unlocking great ears, and associating intervals with songs is the first step to identifying intervals.
 
-Here's a page I built for such songs: [Go To the Page](http://github.com).
+Here's a page I built for such songs: [Go To the Page](https://blastwind.github.io/Music-Interval-Neumorphic-Player/).
 
 By the way 1, after training your ears for a while, internalize these intervals without the help of a song! You don't want to be imagining the Jaws theme everytime a minor 2nd shows up!
 
